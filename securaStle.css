@@ -1,0 +1,322 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    /* Set height to 100% of viewport */
+}
+
+.container {
+    display: flex;
+    /* Use flexbox to align items side by side */
+}
+
+#main-image {
+    margin-right: 10px;
+    /* Adjust margin to position the main image */
+}
+
+.secure-form {
+    max-width: 800px;
+    /* Maximum width for the secure form */
+    padding: 20px;
+    /* Add padding to the secure form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    margin-bottom: 20px;
+}
+
+#form-head {
+    padding: 4rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Align items vertically */
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+}
+
+#form-image img {
+    margin: 20px;
+    /* Add margin to the image */
+    padding: 10px;
+    /* Add padding to the image */
+}
+
+#loginHeading,
+#signUp {
+    font-weight: bold;
+    /* Set font weight to bold */
+    font-family: Arial, sans-serif;
+    /* Specify font family */
+    font-size: larger;
+    color: #333;
+    /* Set color to dark black */
+    margin-bottom: 20px;
+    /* Set margin bottom */
+    text-align: center;
+    /* Center text */
+    margin-top: 20px;
+    /* Add margin top */
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-column {
+    width: calc(50% - 20px);
+    /* Set width to half of container minus margin */
+    margin-bottom: 20px;
+    /* Add margin bottom */
+    padding: 10px;
+    /* Add padding */
+    background-color: #f9f9f9;
+    /* Add background color */
+    border-radius: 5px;
+    /* Add border radius */
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    /* Reduce width to accommodate padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    font-size: 18px;
+    /* Increase font size */
+}
+
+::placeholder {
+    color: rgba(35, 33, 33, 0.469);
+}
+
+input[placeholder="Hospital Name"]::placeholder {
+    color: black;
+    /* Change the color to black */
+}
+
+.password-button {
+    width: 130px;
+    /* Set width to 130px */
+    height: 40px;
+    /* Set height to 30px */
+    background-color: #404040;
+    /* Change background color to deep gray */
+    font-size: 15px;
+    /* Decrease font size */
+    padding: 5px;
+    /* Add padding */
+    color: white;
+    /* Change text color to white */
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.form-submit {
+    width: 150px;
+    /* Set width to 130px */
+    height: 60px;
+    /* Set height to 30px */
+    background-color: #404040;
+    /* Change background color to deep gray */
+    font-size: 25px;
+    /* Decrease font size */
+    padding: 5px;
+    /* Add padding */
+    color: white;
+    /* Change text color to white */
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 10px;
+
+}
+
+
+/* Terms and Conditions */
+.terms-conditions {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.terms-conditions::before {
+    content: "\2022";
+    /* Unicode for bullet point */
+    margin-right: 5px;
+    color: #777;
+}
+
+
+/*for the camera style*/
+#capture-image {
+    margin: 10px;
+    padding: 10px;
+    max-width: 400px;
+    max-height: 600px;
+}
+
+#cameradiv {
+    position: relative;
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+}
+
+#cameradiv img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#cameradiv .camera-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    /* Adjust size as needed */
+    height: auto;
+}
+
+/*camera style is finished*/
+
+#login {
+    display: flex;
+    justify-content: center;
+
+}
+
+#capture-image-form,
+#signUpForm,
+#loginForm {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#UploadedImage {
+    display: flex;
+    justify-content: center;
+
+}
+
+#cameraUploadButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+#retake-image-button {
+    background-color: #777;
+
+}
+
+#continue-image-button {
+    background-color: black;
+
+}
+
+
+/*last page style havong table*/
+#navContainer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+
+    background-color: hsl(40, 18%, 93%);
+    height: 100vh;
+
+
+}
+
+#navbar2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    margin-right: 150px;
+}
+
+#navbar3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#navbar4 {
+
+    padding: 50px;
+}
+
+#table-main {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    /* Remove gaps between table cells */
+    display: flex;
+    justify-content: center;
+}
+
+#main-row {
+    background-color: aqua;
+}
+
+.row td {
+    padding: 15px;
+    /* Increase space between data cells */
+    border-collapse: collapse;
+}
+
+/*registrationImage  style */
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#restart-button{
+    position: fixed;
+     font-size: larger; 
+     border-radius: 30%; 
+     bottom: 20px; 
+     right: 20px;
+     background-color: black; 
+     color: white;
+
+}
+#backButton{
+                position: fixed;
+     font-size: larger; 
+     border-radius: 30%; 
+     bottom: 20px; 
+     left: 20px;
+     background-color: black; 
+     color: white;
+
+}
